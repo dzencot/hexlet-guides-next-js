@@ -1,0 +1,46 @@
+{
+  "title": "Guides and articles for developers",
+  "description": "Guides and articles for developers",
+  "author": "Kirill Mokevnin",
+  "locale": "en_US",
+  "hero": {
+    "header": "Guides on technologies, tools, and practices",
+    "description": "When to use Docker? What are encodings, DNS, and Webpack? How to learn touch typing? And much more"
+  },
+  "navbar": {
+    "source_code": {
+      "title": "Source Code"
+    },
+    "programs": {
+      "title": "Educational Programs",
+      "url": "https://hexlet.io/programs?utm_source=hexlet-guides&utm_medium=referral"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About"
+    },
+    "webinars": {
+      "title": "Free courses and webinars",
+      "url": "https://hexlet.io/webinars?utm_campaign=hexlet&utm_content=link&utm_term=page_webinars"
+    },
+    "codebattle": {
+      "title": "Code Battle",
+      "url": "https://codebattle.hexlet.io/"
+    },
+    "policy": {
+      "title": "Privacy Policy",
+      "url": "https://hexlet.io/pages/privacy"
+    }
+  },
+  "disqus": {
+    "noscript": {
+      "prefix": "Please enable JavaScript to view the",
+      "link": "comments powered by Disqus."
+    },
+    "link": {
+      "prefix": "comments powered by",
+      "logo": "Disqus"
+    }
+  }
+}
