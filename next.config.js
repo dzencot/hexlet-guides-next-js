@@ -4,6 +4,7 @@ module.exports = {
   i18n,
   trailingSlash: true,
   experimental: {
+    nftTracing: true,
     amp: {
       skipValidation: true,
     },
