@@ -112,7 +112,7 @@ const makePostRSSItem = async (post, locale) => {
 
 export const getPublishedPosts = async (locale) => {
   const { dir } = path.parse(process.cwd());
-  const postsPath = path.join('next-app', 'data', 'posts', locale);
+  const postsPath = path.join('app', 'data', 'posts', locale);
   const entries = await fsp.readdir(path.resolve(dir, postsPath), { withFileTypes: true });
   const fileNames = entries
     .filter((entry) => entry.isFile())
